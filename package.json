@@ -1,0 +1,23 @@
+{
+  "name": "transcript-summarizer",
+  "version": "0.1.0",
+  "author": "Kate & Dmitro",
+  "type": "module",
+  "bin": {
+    "trsu": "./bin/cli.js"
+  },
+  "scripts": {
+    "dev": "nodemon ./dev/dev.js"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "install": "^0.13.0",
+    "npm": "^10.5.0",
+    "openai": "^4.31.0",
+    "tiktoken": "^1.0.13"
+  }
+}
